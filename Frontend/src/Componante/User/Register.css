@@ -1,0 +1,123 @@
+/* Base styles */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 1px 4px 10px 2px white;
+    margin-top: 10%;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    color: aliceblue;
+    border-radius: 50px;
+    transition-duration: 0.2s;
+  }
+  button:active{
+    background-color: #70240f;
+  }
+  
+  /* Media Queries */
+  
+  /* For tablets and small devices */
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 0.75rem;
+    }
+  
+    input, button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 480px) {
+    .form-container {
+        max-width: 320px;
+      padding: 0.5rem;
+      border-radius: 6px;
+    }
+  
+    input, button {
+      font-size: 0.8rem;
+    }
+  }
+  
+
+
+
+  #address{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 2px 2px 100px rgb(135, 50, 50);
+    margin-top: 8%;
+
+  }
+
+  #address .regbtn {
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: greenyellow;
+    border: 3px solid red;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  #address .regbtn:nth-child(1){
+    background-color: rgb(196, 93, 205);
+  }
+  #address .regbtn:hover{
+    border-radius: 5px ;
+    color: black;
+    background-color: aquamarine;
+    transition-duration: 1s;
+  }
+
+
+
+  #texterea{
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
